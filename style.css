@@ -35,7 +35,7 @@
 }
 
 header {
-    background-image: url(./img/04_publicacion.png);
+    background-image: url(./img/04_publicacion.jpg);
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
@@ -196,6 +196,7 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+
 }
 
 input[type=submit] {
@@ -268,7 +269,7 @@ input[type=submit]:hover {
 }
 /*privacidad*/
 #imgFondo {
-    background-image: url(./img/fonfopriv.png);
+    background-image: url(./img/fonfopriv.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
