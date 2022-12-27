@@ -1,0 +1,267 @@
+#encabezado {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  padding: auto;
+}
+
+/*navbar*/
+.nav-item {
+  font-weight: bold !important;
+}
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: #f4eded !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.bg-light {
+  background-color: #85744f !important;
+  opacity: 0.9;
+}
+
+#line {
+  width: 150px;
+  height: 4px;
+  background: #90221c;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+header {
+  background-image: url(/img/04_publicacion.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+  font-size: large;
+  padding-top: 40px;
+  color: #85744f;
+}
+
+/*tragos*/
+.subtitulo {
+  text-align: center;
+  font-weight: bold;
+  color: #90221c;
+}
+
+/*botanicos*/
+.lightbox-gallery {
+  background-image: linear-gradient(#85744f, #90221c);
+  background-repeat: no-repeat;
+  color: #000;
+  overflow-x: hidden p;
+}
+
+.lightbox-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.col-sm-6 {
+  padding-bottom: 2%;
+}
+
+@media (max-width: 767px) {
+  .lightbox-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.lightbox-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.lightbox-gallery .intro .p {
+  margin-bottom: 0;
+}
+
+.lightbox-gallery .intro .photos {
+  padding-bottom: 20px;
+}
+
+.lightbox-gallery .intro .item {
+  padding-bottom: 30px;
+}
+
+.cardBotanicos {
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  grid-template-areas: "main";
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cardBotanicos > * {
+  grid-area: main;
+}
+
+.cardBotanicos > .image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: transform 400ms;
+  filter: 400ms;
+}
+
+.cardBotanicos > .text {
+  opacity: 0;
+  color: #ffffff;
+  font-size: 1.8em;
+  transition: transform 400ms;
+  filter: 400ms;
+}
+
+.cardBotanicos:is(:hover, :focus) > .image {
+  transform: scale(1.2);
+  filter: brightness(0.4);
+}
+
+.cardBotanicos:is(:hover, :focus) > .text {
+  transform: scale(1.2);
+  opacity: 3;
+}
+
+/*faqs*/
+.faqs {
+  font-size: x-large;
+  color: #85744f;
+  text-align: justify;
+  margin: 30px;
+}
+
+.faqs h1 {
+  text-align: center;
+  color: #90221c;
+  font-size: 7vmin;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.faqs h1 li {
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+}
+
+/*contacto*/
+* {
+  box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #85744f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #90221c;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*MAPA*/
+#map {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+
+.textoMapa {
+  text-decoration: solid;
+  padding: 15px;
+  font-weight: bold;
+}
+
+/*footer*/
+.bg-light {
+  background-color: #85744f;
+  opacity: 0.9;
+}
+
+.distribucionPie {
+  background-color: #85744f;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+  padding: 45px 50px;
+}
+
+.pie {
+  display: flex;
+  text-align: left;
+  font-weight: bold;
+  color: #000000;
+}
+
+.politica {
+  font-weight: bold;
+  color: #90221c;
+}
+
+.instagram {
+  display: flex;
+  align-content: center;
+  justify-content: right;
+}
+
+/*privacidad*/
+#imgFondo {
+  background-image: url(/img/fonfopriv.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  max-height: fit-content;
+  background-size: cover;
+  overscroll-behavior-block: initial;
+}
+
+.p {
+  color: #f2f2f2;
+}
