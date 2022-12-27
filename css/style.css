@@ -35,7 +35,7 @@
 }
 
 header {
-    background-image: url(/img/04_publicacion.jpg);
+    background-image: url(./img/04_publicacion.jpg);
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;

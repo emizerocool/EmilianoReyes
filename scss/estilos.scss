@@ -6,7 +6,7 @@ $primary-colour: black,
 
 #encabezado {
     position: relative;
-    color: $primary-colour;
+    color: #ffffff;
     text-align: center;
     padding: auto;
 
@@ -27,7 +27,7 @@ $primary-colour: black,
 }
 
 .bg-light {
-    background-color: #85744f !important;
+    background-color: $primary-colour !important;
     opacity: 0.9;
 }
 
